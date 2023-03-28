@@ -3,7 +3,7 @@ import React from 'react'
 export default function Discover() {
   return (
     <div>
-        <p className="text-xl">Discover</p>
+        <button className="text-base">Discover</button>
     </div>
   )
 }

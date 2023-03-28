@@ -8,14 +8,16 @@ import SignUp from './SignUp'
 export default function NavBar() {
   return (
     <div>
-        <nav className="flex justify-between absolute w-10/12 text-white ml-32 mt-24">
-        <p className="text-2xl font-['Outfit'] font-bold">AnimeBinge</p>
-        <div className="flex items-center gap-6">
+        <nav className="absolute flex -space-x-[-505px] text-white pl-20 pt-16">
+        <p className="text-2xl font-['Outfit'] font-semibold">AnimeBinge</p>
+        <div className="flex gap-16 items-center">
             <Home />
             <Discover />
             <AboutUs />
-            <SignUp />
-            <LogIn />
+            <div className="flex gap-5 items-center">
+              <SignUp />
+              <LogIn />
+            </div>
         </div>
         </nav>
     </div>

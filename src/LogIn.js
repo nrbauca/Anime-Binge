@@ -3,7 +3,7 @@ import React from 'react'
 export default function LogIn() {
   return (
     <div>
-        <button className="text-xl rounded-md bg-sky-500 border-2 border-sky-500 px-5 py-2">Log In</button>
+        <button className="rounded-md bg-[#106580] border-[1px] border-[#106580] text-base px-8 py-3">Log In</button>
     </div>
   )
 }
