@@ -11,14 +11,14 @@ export default function Throwback() {
       </div>
       <div className="flex flex-nowrap gap-4 pt-8 pr-4 pb-16">
         <div>
-          <img src={throwback1} alt="throwback 1 anime" />
+          <button><img src={throwback1} alt="throwback 1 anime" /></button>
         </div>
-        <container>
-        <img src={throwback2} alt="throwback 2 anime" />
-        </container>
-        <container>
-        <img src={throwback3} alt="throwback 3 anime" />
-        </container>
+        <div>
+          <button><img src={throwback2} alt="throwback 2 anime" /></button>
+        </div>
+        <div>
+          <button><img src={throwback3} alt="throwback 3 anime" /></button>
+        </div>
       </div>
     </div>
   )

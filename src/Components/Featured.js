@@ -17,7 +17,7 @@ export default function Featured() {
         Koyoharu Gotouge. It follows teenage Tanjiro Kamado, who strives to become a demon <br />
         slayer after his family was slaughtered and his younger sister Nezuko turned into a <br />
         demon.</p>
-        <img src={watchnow} alt="watch now" className="pt-4"/>
+        <button><img src={watchnow} alt="watch now" className="pt-4"/></button>
     </div>
   )
 }
