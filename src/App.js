@@ -1,8 +1,8 @@
-import NavBar from './NavBar';
-import Featured from './Featured';
-import Header from './Header';
-import Trending from './Trending';
-import Throwback from './Throwback';
+import NavBar from './Components/NavBar';
+import Featured from './Components/Featured';
+import Header from './Components/Header';
+import Trending from './Components/Trending';
+import Throwback from './Components/Throwback';
 
 function App() {
   return (
