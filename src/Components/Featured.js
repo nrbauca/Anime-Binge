@@ -2,12 +2,16 @@ import React from 'react'
 import star from '../Images/star.png'
 import watchnow from '../Images/watchnow.png'
 import Overview from './Overview'
-import kimetsu from '../Images/kimetsu.png'
+// import kimetsu from '../Images/kimetsu.png'
+import Header from './Header'
 
 export default function Featured() {
   return (
     <div>
-      <div className="absolute text-white font-['Outfit'] pl-20 pt-96">
+      <div>
+        <Header />
+      </div>
+      <div className="absolute z-10 top-0 text-white font-['Outfit'] pl-20 pt-[355px]">
         <p className="text-7xl font-semibold">Kimetsu no Yaiba</p>
         <div className="flex gap-6 items-center text-xs pt-2">
           <container className="flex gap-1 items-center">
@@ -22,10 +26,9 @@ export default function Featured() {
         demon.</p>
         <button><img src={watchnow} alt="watch now" className="pt-4"/></button>
       </div>
-      <div className="absolute pt-[900px]">
+      <div className="absolute z-20 top-0 pt-[900px]">
         <Overview />
       </div>
-      <img src={kimetsu} alt="kimetsu no yaiba" />
     </div>
   )
 }

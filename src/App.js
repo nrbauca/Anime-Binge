@@ -11,7 +11,7 @@ function App() {
     <div className="bg-[#1A1A1A]">
       <BrowserRouter>
         <header>
-          <nav className="absolute flex -space-x-[-505px] text-white pl-20 pt-16">
+          <nav className="absolute z-50 flex -space-x-[-505px] text-white pl-20 pt-16">
             <Link className="text-2xl font-['Outfit'] font-semibold" to="/home">AnimeBinge</Link>
             <div className="flex gap-16 items-center">
               <Link to="/home"><button className="text-base">Home</button></Link>
