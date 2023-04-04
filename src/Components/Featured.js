@@ -1,6 +1,7 @@
 import React from 'react'
 import star from '../Images/star.png'
 import watchnow from '../Images/watchnow.png'
+import Overview from './Overview'
 import kimetsu from '../Images/kimetsu.png'
 
 export default function Featured() {
@@ -20,6 +21,9 @@ export default function Featured() {
         slayer after his family was slaughtered and his younger sister Nezuko turned into a <br />
         demon.</p>
         <button><img src={watchnow} alt="watch now" className="pt-4"/></button>
+    </div>
+    <div className="absolute pt-[900px]">
+      <Overview />
     </div>
     <img src={kimetsu} alt="kimetsu no yaiba"/>
     </div>
