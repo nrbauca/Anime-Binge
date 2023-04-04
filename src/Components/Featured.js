@@ -8,9 +8,7 @@ import Header from './Header'
 export default function Featured() {
   return (
     <div>
-      <div>
-        <Header />
-      </div>
+      <Header />
       <div className="absolute z-10 top-0 text-white font-['Outfit'] pl-20 pt-[355px]">
         <p className="text-7xl font-semibold">Kimetsu no Yaiba</p>
         <div className="flex gap-6 items-center text-xs pt-2">
