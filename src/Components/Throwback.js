@@ -5,7 +5,7 @@ import throwback3 from '../Images/throwback3.png'
 
 export default function Throwback() {
   return (
-    <div className="pl-20">
+    <div className="px-20">
       <div className="flex text-4xl font-['Outfit'] font-semibold pt-16">
         <p className="text-white">Throwback Anime!</p>
       </div>

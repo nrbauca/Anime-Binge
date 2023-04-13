@@ -5,9 +5,9 @@ export default function NavBar() {
   return (
     <div>
         <header>
-          <nav className="absolute z-50 flex -space-x-[-505px] text-white pl-20 pt-16">
+          <nav className="absolute z-50 flex w-full justify-between text-white px-20 pt-16">
             <Link className="text-2xl font-['Outfit'] font-semibold" to="/home">AnimeBinge</Link>
-            <div className="flex gap-16 items-center">
+            <div className="flex gap-14 items-center">
               <Link to="/home"><button className="text-base">Home</button></Link>
               <Link to="/discover"><button className="text-base">Discover</button></Link>
               <Link to="/aboutus"><button className="text-base">About Us</button></Link>
